@@ -114,6 +114,7 @@ class Client {
 
   async confirmationQuorum() {
     const resp = await this.fetch("confirmation_quorum");
+    console.log('resp');
     return await resp.json();
   }
 

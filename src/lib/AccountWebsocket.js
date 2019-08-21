@@ -20,7 +20,7 @@ export default class AccountWebsocket {
     if (!this.websocketHost) return;
     if (this.socket.connected && this.socket.ws) return;
 
-    this.socket.ws = new WebSocket(`wss://${this.websocketHost}`);
+    this.socket.ws = new WebSocket(`ws://${this.websocketHost}`);
     this.socket.ws.onopen = this.onOpen.bind(this);
     this.socket.ws.onerror = this.onError.bind(this);
     this.socket.ws.onclose = this.onClose.bind(this);

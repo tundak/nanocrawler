@@ -1,0 +1,39 @@
+{
+  "server": "http://localhost:3001",
+  "websocketServer": "localhost:47000",
+  "donationAddress":
+    "bcb_1bn57iumfyddrpyjtomypckknyefi1fj5s4daixsqj75rfy79yz9txiyauj8",
+  "currency": {
+    "name": "BitcoinBlack",
+    "shortName": "BCB",
+    "precision": 28,
+    "maxSupply": 3402823669.2,
+    "prefixes": ["bcb"],
+    "qrPrefix": "bcb",
+    "supportsMyNanoNinja": false
+  },
+  "features": {
+    "nodeStatus": true,
+    "supportedLanguages": {
+      "en": "English",
+      "cs": "Čeština",
+      "da": "Dansk",
+      "de": "Deutsch",
+      "es": "Español",
+      "fr": "Français",
+      "it": "Italiano",
+      "hr": "Hrvatski",
+      "hu": "Magyar",
+      "id": "Bahasa Indonesia",
+      "nl": "Nederlands",
+      "pt-BR": "Português Brasileiro",
+      "el": "Ελληνικά",
+      "ro": "Română",
+      "ru": "Русский",
+      "sv": "Svenska",
+      "zh-CN": "汉语",
+      "zh-TW": "漢語"
+    }
+  },
+  "serviceMonitors": []
+}

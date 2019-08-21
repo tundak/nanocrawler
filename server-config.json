@@ -1,0 +1,18 @@
+{
+  "nodeName": "http://localhost:3000/",
+  "account": "bcb_1bn57iumfyddrpyjtomypckknyefi1fj5s4daixsqj75rfy79yz9txiyauj8",
+  "clientUrl": "http://localhost:3000/",
+  "raiblocksDir": "/home/BtcbTest",
+  "nodeHost": "http://localhost:45000",
+  "redis": "redis://127.0.0.1:6379",
+  "redisNamespace": "bcb_development",
+  "openExchangeRatesAppId": "",
+  "coinMarketCapApiKey": "f01eb9cc-7991-4161-873c-2e2109115454",
+  "serverPort": 3001,
+  "monitorCurrencyName": "bcb",
+  "knownMonitors": [],
+  "blacklistedPeers": [],
+  "officialRepresentatives": [
+    "bcb_1bn57iumfyddrpyjtomypckknyefi1fj5s4daixsqj75rfy79yz9txiyauj8"
+  ]
+}
